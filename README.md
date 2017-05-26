@@ -1,6 +1,9 @@
 # Logstash Filter HTMLEntities Plugin
 
-[![Travis Build Status](https://travis-ci.org/synlay/logstash-filter-htmlentities.svg)](https://travis-ci.org/synlay/logstash-filter-htmlentities)
+[![Build Status](https://travis-ci.org/synlay/logstash-filter-htmlentities.svg)](https://travis-ci.org/synlay/logstash-filter-htmlentities)
+[![Coverage Status](https://coveralls.io/repos/github/synlay/logstash-filter-htmlentities/badge.svg?branch=master)](https://coveralls.io/github/synlay/logstash-filter-htmlentities?branch=master)
+[![Gem Version](https://badge.fury.io/rb/logstash-filter-htmlentities.svg)](https://badge.fury.io/rb/logstash-filter-htmlentities)
+[![GitHub license](https://img.shields.io/github/license/synlay/logstash-filter-htmlentities.svg)](https://github.com/synlay/logstash-filter-htmlentities)
 
 This is a plugin for [Logstash](https://github.com/elastic/logstash).
 
