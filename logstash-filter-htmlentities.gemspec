@@ -2,7 +2,7 @@ Gem::Specification.new do |s|
   s.name = 'logstash-filter-htmlentities'
   s.version         = '0.1.0'
   s.licenses        = ['']
-  s.summary         = "This filter will decode (X)HTML entities from source and store it to the target"
+  s.summary         = "Logstash filter for decoding (X)HTML entities from event fields"
   s.description     = "This gem is a Logstash plugin required to be installed on top of the Logstash core pipeline using $LS_HOME/bin/logstash-plugin install gemname. This gem is not a stand-alone program"
   s.authors         = ["David Robakowski"]
   s.email           = 'david.robakowski@synlay.com'

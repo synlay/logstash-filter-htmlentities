@@ -14,8 +14,8 @@ describe LogStash::Filters::HTMLEntities do
     CONFIG
     end
 
-    sample("test_source_field" => "G&amp;G CHIPS") do
-      expect(subject.get("test_target_field")).to eq("G&G CHIPS")
+    sample("test_source_field" => "Examples &amp; Explanations") do
+      expect(subject.get("test_target_field")).to eq("Examples & Explanations")
     end
   end
 end
